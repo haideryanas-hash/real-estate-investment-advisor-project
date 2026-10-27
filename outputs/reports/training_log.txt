@@ -1,0 +1,27 @@
+2026/10/25 19:12:59 INFO mlflow.store.db.utils: Creating initial MLflow database tables...
+2026/10/25 19:12:59 INFO mlflow.store.db.utils: Updating database tables
+2026/10/25 19:13:00 INFO mlflow.tracking.fluent: Experiment with name 'Real_Estate_Investment_Advisor' does not exist. Creating a new experiment.
+19:13:01 rows: train=28,287 test=7,072 | features=30 | good-investment rate=32.4%
+19:13:01 === CLASSIFICATION: Good Investment ===
+2026/10/25 19:13:04 WARNING mlflow.sklearn: Saving scikit-learn models in the pickle or cloudpickle format requires exercising caution because these formats rely on Python's object serialization mechanism, which can execute arbitrary code during deserialization. The recommended safe alternative is the 'skops' format. For more information, see: https://scikit-learn.org/stable/model_persistence.html
+19:13:10   Logistic_Regression  cv_auc=0.9524 | test acc=0.8792 f1=0.8091 auc=0.9516 | 2s
+2026/10/25 19:13:56 WARNING mlflow.sklearn: Saving scikit-learn models in the pickle or cloudpickle format requires exercising caution because these formats rely on Python's object serialization mechanism, which can execute arbitrary code during deserialization. The recommended safe alternative is the 'skops' format. For more information, see: https://scikit-learn.org/stable/model_persistence.html
+19:13:59   Random_Forest        cv_auc=0.9893 | test acc=0.9515 f1=0.9230 auc=0.9904 | 45s
+2026/10/25 19:14:20 WARNING mlflow.sklearn: Saving scikit-learn models in the pickle or cloudpickle format requires exercising caution because these formats rely on Python's object serialization mechanism, which can execute arbitrary code during deserialization. The recommended safe alternative is the 'skops' format. For more information, see: https://scikit-learn.org/stable/model_persistence.html
+19:14:24   XGBoost              cv_auc=0.9993 | test acc=0.9924 f1=0.9882 auc=0.9996 | 21s
+19:14:24 === REGRESSION: Future price after 5 years ===
+19:14:24   Baseline (8% fixed)  test rmse=23.329 mae=16.429 r2=0.9883
+2026/10/25 19:14:25 WARNING mlflow.sklearn: Saving scikit-learn models in the pickle or cloudpickle format requires exercising caution because these formats rely on Python's object serialization mechanism, which can execute arbitrary code during deserialization. The recommended safe alternative is the 'skops' format. For more information, see: https://scikit-learn.org/stable/model_persistence.html
+19:14:28   Linear_Regression    cv_rmse=3.062 | test rmse=3.080 mae=2.313 r2=0.9998 | 1s
+2026/10/25 19:17:31 WARNING mlflow.sklearn: Saving scikit-learn models in the pickle or cloudpickle format requires exercising caution because these formats rely on Python's object serialization mechanism, which can execute arbitrary code during deserialization. The recommended safe alternative is the 'skops' format. For more information, see: https://scikit-learn.org/stable/model_persistence.html
+19:17:34   Random_Forest        cv_rmse=7.560 | test rmse=6.925 mae=4.958 r2=0.9990 | 181s
+2026/10/25 19:17:49 WARNING mlflow.sklearn: Saving scikit-learn models in the pickle or cloudpickle format requires exercising caution because these formats rely on Python's object serialization mechanism, which can execute arbitrary code during deserialization. The recommended safe alternative is the 'skops' format. For more information, see: https://scikit-learn.org/stable/model_persistence.html
+19:17:52   XGBoost              cv_rmse=1.898 | test rmse=1.735 mae=1.342 r2=0.9999 | 14s
+19:17:52 === registering champions ===
+Successfully registered model 'GoodInvestmentClassifier'.
+Created version '1' of model 'GoodInvestmentClassifier'.
+19:17:52   GoodInvestmentClassifier v1 <- XGBoost | exported good_investment_classifier.joblib (0.3 MB)
+Successfully registered model 'FuturePriceRegressor'.
+Created version '1' of model 'FuturePriceRegressor'.
+19:17:52   FuturePriceRegressor v1 <- XGBoost | exported future_price_regressor.joblib (0.3 MB)
+19:17:52 done.

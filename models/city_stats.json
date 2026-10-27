@@ -1,0 +1,303 @@
+{
+  "cities": {
+    "Ahmedabad": {
+      "state": "Gujarat",
+      "median_ppsf": 9010.863261856186,
+      "mean_ppsf": 12479.885122470558,
+      "median_price_lakhs": 257.355,
+      "n": 870
+    },
+    "Amritsar": {
+      "state": "Punjab",
+      "median_ppsf": 9110.108864696735,
+      "mean_ppsf": 12685.443115357899,
+      "median_price_lakhs": 245.56,
+      "n": 871
+    },
+    "Bangalore": {
+      "state": "Karnataka",
+      "median_ppsf": 9401.849469704925,
+      "mean_ppsf": 13419.152124804508,
+      "median_price_lakhs": 252.45,
+      "n": 592
+    },
+    "Bhopal": {
+      "state": "Madhya Pradesh",
+      "median_ppsf": 8815.612346373957,
+      "mean_ppsf": 12574.04474360015,
+      "median_price_lakhs": 265.36,
+      "n": 842
+    },
+    "Bhubaneswar": {
+      "state": "Odisha",
+      "median_ppsf": 9060.337552742616,
+      "mean_ppsf": 13283.02647600734,
+      "median_price_lakhs": 253.42,
+      "n": 869
+    },
+    "Bilaspur": {
+      "state": "Chhattisgarh",
+      "median_ppsf": 9118.759621728612,
+      "mean_ppsf": 13064.127767611324,
+      "median_price_lakhs": 243.17,
+      "n": 883
+    },
+    "Chennai": {
+      "state": "Tamil Nadu",
+      "median_ppsf": 9831.322241264523,
+      "mean_ppsf": 13807.142547076726,
+      "median_price_lakhs": 266.405,
+      "n": 896
+    },
+    "Coimbatore": {
+      "state": "Tamil Nadu",
+      "median_ppsf": 9239.543713247978,
+      "mean_ppsf": 13087.223445943471,
+      "median_price_lakhs": 249.69,
+      "n": 898
+    },
+    "Cuttack": {
+      "state": "Odisha",
+      "median_ppsf": 9070.859167404784,
+      "mean_ppsf": 12750.79522710576,
+      "median_price_lakhs": 253.35,
+      "n": 893
+    },
+    "Dehradun": {
+      "state": "Uttarakhand",
+      "median_ppsf": 9416.34942897215,
+      "mean_ppsf": 13304.748514913152,
+      "median_price_lakhs": 266.65,
+      "n": 897
+    },
+    "Durgapur": {
+      "state": "West Bengal",
+      "median_ppsf": 9125.05022258966,
+      "mean_ppsf": 13164.024345242799,
+      "median_price_lakhs": 253.875,
+      "n": 944
+    },
+    "Dwarka": {
+      "state": "Delhi",
+      "median_ppsf": 9250.0,
+      "mean_ppsf": 12755.89878983097,
+      "median_price_lakhs": 245.84,
+      "n": 893
+    },
+    "Faridabad": {
+      "state": "Haryana",
+      "median_ppsf": 9035.114587146956,
+      "mean_ppsf": 13252.733823518807,
+      "median_price_lakhs": 241.865,
+      "n": 938
+    },
+    "Gaya": {
+      "state": "Bihar",
+      "median_ppsf": 9324.30171720317,
+      "mean_ppsf": 13572.835474348218,
+      "median_price_lakhs": 256.16499999999996,
+      "n": 906
+    },
+    "Gurgaon": {
+      "state": "Haryana",
+      "median_ppsf": 9188.908035745088,
+      "mean_ppsf": 12530.202885183346,
+      "median_price_lakhs": 252.99,
+      "n": 858
+    },
+    "Guwahati": {
+      "state": "Assam",
+      "median_ppsf": 9670.167583268681,
+      "mean_ppsf": 13988.09245232113,
+      "median_price_lakhs": 265.04499999999996,
+      "n": 796
+    },
+    "Haridwar": {
+      "state": "Uttarakhand",
+      "median_ppsf": 8909.446254071661,
+      "mean_ppsf": 12753.660612172811,
+      "median_price_lakhs": 252.72,
+      "n": 873
+    },
+    "Hyderabad": {
+      "state": "Telangana",
+      "median_ppsf": 9114.90514905149,
+      "mean_ppsf": 13122.403223011102,
+      "median_price_lakhs": 254.25,
+      "n": 891
+    },
+    "Indore": {
+      "state": "Madhya Pradesh",
+      "median_ppsf": 9276.507276507276,
+      "mean_ppsf": 13892.032738286836,
+      "median_price_lakhs": 258.24,
+      "n": 831
+    },
+    "Jaipur": {
+      "state": "Rajasthan",
+      "median_ppsf": 9373.244147157191,
+      "mean_ppsf": 13260.514912521723,
+      "median_price_lakhs": 275.56,
+      "n": 901
+    },
+    "Jamshedpur": {
+      "state": "Jharkhand",
+      "median_ppsf": 9139.872824171642,
+      "mean_ppsf": 12976.6447235023,
+      "median_price_lakhs": 256.15999999999997,
+      "n": 888
+    },
+    "Jodhpur": {
+      "state": "Rajasthan",
+      "median_ppsf": 9427.320010949905,
+      "mean_ppsf": 12683.699218863205,
+      "median_price_lakhs": 256.21,
+      "n": 857
+    },
+    "Kochi": {
+      "state": "Kerala",
+      "median_ppsf": 8890.806911304167,
+      "mean_ppsf": 12843.484475215459,
+      "median_price_lakhs": 246.5,
+      "n": 868
+    },
+    "Kolkata": {
+      "state": "West Bengal",
+      "median_ppsf": 9687.916078273149,
+      "mean_ppsf": 13604.266993773139,
+      "median_price_lakhs": 248.93,
+      "n": 931
+    },
+    "Lucknow": {
+      "state": "Uttar Pradesh",
+      "median_ppsf": 9334.51015004413,
+      "mean_ppsf": 13310.015385708328,
+      "median_price_lakhs": 252.99,
+      "n": 845
+    },
+    "Ludhiana": {
+      "state": "Punjab",
+      "median_ppsf": 9018.362977422621,
+      "mean_ppsf": 12772.178031780066,
+      "median_price_lakhs": 253.64499999999998,
+      "n": 846
+    },
+    "Mangalore": {
+      "state": "Karnataka",
+      "median_ppsf": 9472.267235597625,
+      "mean_ppsf": 13478.491598257475,
+      "median_price_lakhs": 258.32000000000005,
+      "n": 574
+    },
+    "Mumbai": {
+      "state": "Maharashtra",
+      "median_ppsf": 9029.737900476235,
+      "mean_ppsf": 13130.026853529364,
+      "median_price_lakhs": 249.04500000000002,
+      "n": 596
+    },
+    "Mysore": {
+      "state": "Karnataka",
+      "median_ppsf": 9676.384839650145,
+      "mean_ppsf": 14013.136971614213,
+      "median_price_lakhs": 272.63,
+      "n": 567
+    },
+    "Nagpur": {
+      "state": "Maharashtra",
+      "median_ppsf": 9406.151773686574,
+      "mean_ppsf": 12992.113394378666,
+      "median_price_lakhs": 260.2,
+      "n": 613
+    },
+    "New Delhi": {
+      "state": "Delhi",
+      "median_ppsf": 8738.665526090675,
+      "mean_ppsf": 13197.923195018668,
+      "median_price_lakhs": 249.59,
+      "n": 893
+    },
+    "Noida": {
+      "state": "Uttar Pradesh",
+      "median_ppsf": 9606.131462717589,
+      "mean_ppsf": 13222.706051230685,
+      "median_price_lakhs": 245.22,
+      "n": 857
+    },
+    "Patna": {
+      "state": "Bihar",
+      "median_ppsf": 9037.959019585673,
+      "mean_ppsf": 12884.893071258675,
+      "median_price_lakhs": 242.925,
+      "n": 856
+    },
+    "Pune": {
+      "state": "Maharashtra",
+      "median_ppsf": 9379.166328903786,
+      "mean_ppsf": 13386.349104534402,
+      "median_price_lakhs": 250.265,
+      "n": 582
+    },
+    "Raipur": {
+      "state": "Chhattisgarh",
+      "median_ppsf": 9185.18075639059,
+      "mean_ppsf": 13256.39157033814,
+      "median_price_lakhs": 261.235,
+      "n": 904
+    },
+    "Ranchi": {
+      "state": "Jharkhand",
+      "median_ppsf": 9351.945098093722,
+      "mean_ppsf": 13194.381282255014,
+      "median_price_lakhs": 241.765,
+      "n": 934
+    },
+    "Silchar": {
+      "state": "Assam",
+      "median_ppsf": 9347.801246760067,
+      "mean_ppsf": 12444.254185878628,
+      "median_price_lakhs": 265.79999999999995,
+      "n": 856
+    },
+    "Surat": {
+      "state": "Gujarat",
+      "median_ppsf": 9530.76090342485,
+      "mean_ppsf": 13642.484314946347,
+      "median_price_lakhs": 253.61,
+      "n": 902
+    },
+    "Trivandrum": {
+      "state": "Kerala",
+      "median_ppsf": 8956.452945642057,
+      "mean_ppsf": 12083.487303792452,
+      "median_price_lakhs": 252.37,
+      "n": 870
+    },
+    "Vijayawada": {
+      "state": "Andhra Pradesh",
+      "median_ppsf": 9390.091863517058,
+      "mean_ppsf": 13217.856161142676,
+      "median_price_lakhs": 263.49,
+      "n": 959
+    },
+    "Vishakhapatnam": {
+      "state": "Andhra Pradesh",
+      "median_ppsf": 9379.582455689277,
+      "mean_ppsf": 13420.776278374393,
+      "median_price_lakhs": 261.585,
+      "n": 908
+    },
+    "Warangal": {
+      "state": "Telangana",
+      "median_ppsf": 8980.900109769484,
+      "mean_ppsf": 12721.900457765283,
+      "median_price_lakhs": 259.11,
+      "n": 911
+    }
+  },
+  "global": {
+    "median_ppsf": 9244.94794856093,
+    "ppsf_cap": 65638.16666666663,
+    "ratio_cap": 7.114345838842577
+  }
+}

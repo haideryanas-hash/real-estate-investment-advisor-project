@@ -1,0 +1,37 @@
+{
+  "rows": 35359,
+  "columns": 50,
+  "annual_growth_rate_pct": {
+    "mean": 8.703,
+    "std": 0.922,
+    "min": 5.767,
+    "25%": 8.067,
+    "50%": 8.7,
+    "75%": 9.333,
+    "max": 11.967
+  },
+  "expected_roi_5y_pct_mean": 51.89,
+  "investment_score_distribution": {
+    "0": 507,
+    "1": 2073,
+    "2": 3871,
+    "3": 5034,
+    "4": 6261,
+    "5": 6163,
+    "6": 4949,
+    "7": 3694,
+    "8": 2162,
+    "9": 645
+  },
+  "good_investment_threshold_score": 6,
+  "good_investment_share_pct": 32.38,
+  "criterion_hit_rate_pct": {
+    "Priced below city median per sq ft": 50.0,
+    "Projected growth above threshold": 58.9,
+    "3+ BHK": 59.8,
+    "Ready to move": 50.1,
+    "High public-transport access": 33.2,
+    "Strong infrastructure score": 40.2,
+    "Security available": 49.7
+  }
+}

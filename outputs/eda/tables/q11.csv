@@ -1,0 +1,6 @@
+,Feature A,Feature B,r
+14,Size_in_SqFt,Price_per_SqFt_INR,-0.617
+61,Floor_No,Total_Floors,0.606
+25,Price_in_Lakhs,Price_per_SqFt_INR,0.553
+87,Nearby_Schools,Infrastructure_Score,0.498
+98,Nearby_Hospitals,Infrastructure_Score,0.492

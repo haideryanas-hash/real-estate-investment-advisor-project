@@ -1,0 +1,72 @@
+{
+  "classifier": "XGBoost",
+  "regressor": "XGBoost",
+  "classification": {
+    "accuracy": 0.9923642533936652,
+    "roc_auc": 0.9996308938724,
+    "f1": 0.9881993006993007,
+    "precision": 0.989063867016623,
+    "recall": 0.9873362445414847,
+    "report": {
+      "Not good": {
+        "precision": 0.993940660259089,
+        "recall": 0.9947720618987871,
+        "f1-score": 0.9943561872909699,
+        "support": 4782.0
+      },
+      "Good investment": {
+        "precision": 0.989063867016623,
+        "recall": 0.9873362445414847,
+        "f1-score": 0.9881993006993007,
+        "support": 2290.0
+      },
+      "accuracy": 0.9923642533936652,
+      "macro avg": {
+        "precision": 0.991502263637856,
+        "recall": 0.9910541532201359,
+        "f1-score": 0.9912777439951352,
+        "support": 7072.0
+      },
+      "weighted avg": {
+        "precision": 0.9923614950264464,
+        "recall": 0.9923642533936652,
+        "f1-score": 0.992362512192706,
+        "support": 7072.0
+      }
+    },
+    "n_test": 7072,
+    "positive_rate_test": 0.32381221719457015
+  },
+  "regression": {
+    "rmse": 1.7346209100233139,
+    "mae": 1.3422831036871914,
+    "r2": 0.9999352323809788,
+    "mape_pct": 0.5509499322722075,
+    "baseline_fixed_8pct": {
+      "rmse": 23.32915690770232,
+      "mae": 16.42862346109806,
+      "r2": 0.9882848766554316,
+      "mape_pct": 4.197024440645748
+    },
+    "rel_error_p05": -0.011303448085951967,
+    "rel_error_p95": 0.01106941623100724,
+    "rmse_improvement_vs_baseline_pct": 92.56457952215746,
+    "target_mean": 383.4166487556561,
+    "target_std": 215.55411532138828
+  },
+  "signal_test_current_price": {
+    "description": "XGBoost predicting TODAY's price from every other feature (city, size, BHK, age, amenities ...)",
+    "test_r2": -0.1462219324456262,
+    "test_rmse": 151.5530395692402,
+    "price_std": 141.56666505504495,
+    "interpretation": "R2 ~ 0 means the features carry no information about price in this dataset."
+  },
+  "ablation_without_price_features": {
+    "description": "Same XGBoost classifier WITHOUT Price_in_Lakhs, Log_Price, Price_per_SqFt_INR, PPSF_vs_City_Median",
+    "accuracy": 0.8854638009049773,
+    "roc_auc": 0.9567630798901997,
+    "f1": 0.8180592991913747,
+    "full_model_accuracy": 0.9923642533936652,
+    "full_model_roc_auc": 0.9996308938724
+  }
+}

@@ -1,0 +1,22 @@
+# Data cleaning report
+
+- **rows_raw**: 35359
+- **columns_raw**: 23
+- **missing_values_before**: none
+- **missing_values_after**: 0
+- **duplicate_rows_excl_id**: 0
+- **duplicate_ids**: 0
+- **invalid_rows_dropped**: 0
+- **age_mismatch_rows**: 0
+- **floor_gt_total_floors_rows**: 16647
+- **floor_gt_total_floors_pct**: 47.08
+- **supplied_price_per_sqft_zero_rows**: 331
+- **amenity_string_variants_before**: 325
+- **amenity_string_variants_after**: 31
+- **outliers_iqr**
+    - Price_in_Lakhs: {'lower_fence': -230.57, 'upper_fence': 738.39, 'outliers': 0, 'pct': 0.0}
+    - Size_in_SqFt: {'lower_fence': -1778.5, 'upper_fence': 7257.5, 'outliers': 0, 'pct': 0.0}
+    - Price_per_SqFt_INR: {'lower_fence': -11979.21, 'upper_fence': 32814.67, 'outliers': 2808, 'pct': 7.94}
+- **outlier_treatment**: flagged and kept (valid extreme combinations); PPSF winsorised at 99th pct for modelling
+- **rows_clean**: 35359
+- **columns_clean**: 27
