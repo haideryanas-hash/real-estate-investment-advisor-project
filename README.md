@@ -1,3 +1,5 @@
+https://haideryanas-hash-real-estate-investment-appstreamlit-app-noftvp.streamlit.app/
+
 # 🏠 Real Estate Investment Advisor
 
 Classify whether a property is a **Good Investment** and predict its **price after 5 years** — with a Streamlit app, MLflow tracking and a full EDA of 35,359 Indian property listings.
